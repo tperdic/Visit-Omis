@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+a:focus, 
+select:focus,
+option:focus, 
+input:focus, 
+button:focus {outline: 1px dotted #000; }
+
+@media (min-width: 950px) { 
+	.menu li:focus-within ul,
+	.top_right li:focus-within ul {
+		display: block;
+		overflow: visible;
+		visibility: visible;
+		opacity: 1;
+	}
+}
+.menu > ul > li > ul {background: rgba(255, 255, 255, 1); border-bottom : 1px solid #ccc; border-top: 1px solid #ccc;}
+
+
+a.box:focus, 
+.box a:focus, 
+.logos a:focus,
+.soc a:focus,
+.pn-ProductNav_Link:focus, 
+.pictxt-img a:focus {border:1px dotted #000; outline:none;}
+
+#popup a:focus, 
+#popup input:focus {border:1px dotted #fff; outline:none;}
+
+.hero_desc span {background:#04426F; padding: 10px 15px 0 15px;}
+
+.hero_desc p {background:#04426F; padding: 0 15px 10px 15px;}
+
+.hero_desc .buttlike { background: #04426F;}
+
+.story_slider .item .desc {background: #04426F; padding:20px;}
+
+.hero_desc h1, .header h1 {background: #04426F; padding:20px; display:inline-block;}
+
+.h1.h1wSub .hero_desc .wrap div, 
+.header.h1wSub .wrap div {background: #04426F; padding:20px;}
+
+.dragmenu_wrap::-webkit-scrollbar {
+  width: 10px;
+}
+.dragmenu_wrap {
+  scrollbar-width: thin;
+  scrollbar-color: #ccc #fff;
+}
+.dragmenu_wrap::-webkit-scrollbar-track {
+  background: #fff;
+}
+.dragmenu_wrap::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+  border: 3px solid #fff;
+}
+
+.dragmenu_wrap {
+	overflow-x: auto;
+    scrollbar-width: auto;
+}
+
+
